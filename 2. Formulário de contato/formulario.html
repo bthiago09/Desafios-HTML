@@ -4,39 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="formulario.css" />
-    <title>Formulário</title>
+    <title>Formulário de Contato</title>
   </head>
   <body>
     <form>
       <fieldset>
         <legend>Entre em contato</legend>
-
+        <br />
         <div>
-          <strong><p class="inline">Assunto:</p></strong>
-          <select>
+          <label for="assunto"><strong>Assunto:</strong></label>
+          <select id="assunto">
             <option>Suporte</option>
             <option>Sugestão</option>
             <option>Reclamação</option>
           </select>
         </div>
+        <br />
         <div>
-          <strong><p>Nome Completo:</p></strong>
+          <label for="nome"><strong>Nome Completo:</strong></label
+          ><br />
           <input type="text" placeholder="Seu nome" />
         </div>
+        <br />
         <div>
-          <strong><p>E-mail:</p></strong>
+          <label for="email"><strong>E-mail:</strong></label
+          ><br />
           <input type="text" placeholder="email@seudominio.com" />
         </div>
+        <br />
         <div>
-          <strong><p>Mensagem:</p></strong>
+          <label for="msg"><strong>Mensagem: </strong></label><br />
           <textarea cols="20" rows="10"></textarea>
         </div>
         <div class="novidades">
-          <input type="checkbox" />
-          <p class="inline">Aceito receber novidades por e-mail</p>
+          <label for=""
+            ><input type="checkbox" />Aceito receber novidades por e-mail</label
+          >
         </div>
+        <br />
         <input type="submit" />
+        <br />
       </fieldset>
     </form>
   </body>
