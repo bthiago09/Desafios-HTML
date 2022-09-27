@@ -1,7 +1,11 @@
-div b p {
+.inline {
+  display: inline;
+}
+
+div strong p {
   margin-bottom: 0;
 }
 
-div b p {
-  display: flex;
+.novidades {
+  margin: 10px 0px;
 }

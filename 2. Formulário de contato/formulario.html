@@ -8,27 +8,34 @@
     <title>Formulário</title>
   </head>
   <body>
-    <form action="">
+    <form>
       <fieldset>
         <legend>Entre em contato</legend>
 
-        <div id="assunto">
-          <b><p>Assunto:</p></b>
-          <select name="" id="">
+        <div>
+          <strong><p class="inline">Assunto:</p></strong>
+          <select>
             <option>Suporte</option>
             <option>Sugestão</option>
             <option>Reclamação</option>
           </select>
         </div>
         <div>
-          <b><p>Nome Completo:</p></b>
+          <strong><p>Nome Completo:</p></strong>
           <input type="text" placeholder="Seu nome" />
         </div>
         <div>
-          <b><p>E-mail:</p></b>
+          <strong><p>E-mail:</p></strong>
           <input type="text" placeholder="email@seudominio.com" />
         </div>
-
+        <div>
+          <strong><p>Mensagem:</p></strong>
+          <textarea cols="20" rows="10"></textarea>
+        </div>
+        <div class="novidades">
+          <input type="checkbox" />
+          <p class="inline">Aceito receber novidades por e-mail</p>
+        </div>
         <input type="submit" />
       </fieldset>
     </form>
