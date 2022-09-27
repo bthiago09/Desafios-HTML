@@ -1,0 +1,7 @@
+div b p {
+  margin-bottom: 0;
+}
+
+div b p {
+  display: flex;
+}
